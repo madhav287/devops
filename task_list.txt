@@ -1,0 +1,29 @@
+echo "
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Page Title</title>
+  <meta name="description" content="My Page Description">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+  <script src="js/scripts.js"></script>
+  <h1>TASK LIST WILL BE UPDATED HERE</h1>
+  <h2>TASK LIST</h2>
+
+<ul>
+  <li>VPC PEERING & TRANSIT GATEWAY</li>
+  <li>DATA DOG</li>
+  <li>SONARQUBE INTEGRATION WITH JENKINS</li>
+</ul>  
+
+<h2>TASK LIST</h2>
+
+<ol>
+  <li>KIBALA & ELASTIC SEARCH</li>
+  <li>COPY AAUTHORIZED KEYS AUTOMATICALLY WHEN INSTANCE GOT STARTED BY USING USER DATA</li>
+  <li>WEB SITE FOR TASK LIST</li>
+</ol> 
+</body>
+</html>" >/var/www/html/index.html
