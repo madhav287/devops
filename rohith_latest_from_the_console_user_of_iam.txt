@@ -1,4 +1,0 @@
-UserName": "rohith",
-        "AccessKeyId": "AKIARQAJLGAJ4WDSACF2",
-        "Status": "Active",
-        "SecretAccessKey": "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
