@@ -1,3 +1,5 @@
 set modifies the current shell's (the window's) environment values, and the change is available immediately, but it is temporary. The change will not affect other shells that are running, and as soon as you close the shell, the new value is lost until such time as you run set again.
 
 setx modifies the value permanently, which affects all future shells, but does not modify the environment of the shells already running. You have to exit the shell and reopen it before the change will be available, but the value will remain modified until you change it again.
+
+learn well
