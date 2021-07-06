@@ -1,0 +1,11 @@
+installing jdk in 
+sudo add-apt-repository universe
+
+sudo apt-get update
+
+sudo apt-get install alien
+
+sudo alien jdk-8u291-linux-x64.rpm
+
+sudo dpkg -i jdk1.8_1.8.0291-1_amd64.deb
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+for number in `cat input`;
+do
+   temp=$(( $number % 2 ))
+   if [ $temp == 0 ]
+   then
+        echo "$number is even number"
+   else
+        echo "$number is ODD number"
+   fi
+done

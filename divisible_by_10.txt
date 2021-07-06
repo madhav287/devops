@@ -1,0 +1,9 @@
+#!/bin/bash
+for number in `cat input`;
+do
+        temp=$(( $number % 10 ))
+   if [ $temp == 0 ]
+   then
+        echo "$number is divisible by 10"
+   fi
+done

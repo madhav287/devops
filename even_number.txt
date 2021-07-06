@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "enter a number"
+read number
+for ((value = 0;value < number;value += 2));do
+        echo "even_number $value"
+done

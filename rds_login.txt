@@ -1,0 +1,22 @@
+yum install mysql
+mysql -h owndb.c5gepix3e8mg.eu-west-3.rds.amazonaws.com -u admin -p
+create database mydatabase
+CREATE USER 'rohith'@'%' IDENTIFIED BY 'rohith';
+GRANT ALL PRIVILEGES ON mydatabase.* TO 'rohith'@'%';
+FLUSH PRIVILEGES;
+
+login user from 
+mysql -h owndb.c5gepix3e8mg.eu-west-3.rds.amazonaws.com -u mango apple -p
+
+
+mysql -h kuntrapakam.cyqux9tgz40z.ap-south-1.rds.amazonaws.com -u admin -p
+
+pom.xml
+/opt/springframework/pom.xml
+
+/opt/spring-framework-petclinic/src/main/resources/db/mysql
+schema.xml
+
+database:demo_petclinic
+CREATE USER 'demo_user'@'%' IDENTIFIED BY 'mango';
+GRANT ALL PRIVILEGES ON demo_petclinic.* TO 'demo_user'@'%';

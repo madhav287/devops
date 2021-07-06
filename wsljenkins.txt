@@ -1,0 +1,9 @@
+sudo service jenkins start
+
+http://localhost:8080
+
+154eb8ab96834d51acd6a45c1c6033b0
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+this will give you the password

@@ -1,0 +1,24 @@
+validating the ssh key
+ssh -T git@github.com  life saviour
+
+
+usermod -a -G wheel jenkins
+
+adding the jenkins to the wheel group
+
+
+visudo 
+
+cd /etc/sudoers.d/ life saviour
+cloud-init-users
+
+pythonuser
+krishna
+
+http://jenkins-alb-861864631.ap-south-1.elb.amazonaws.com/
+
+establish a connection between jenkins to tomcat server
+ssh -T root@10.0.15.141
+
+
+if error occurs give permission to the builded war file
